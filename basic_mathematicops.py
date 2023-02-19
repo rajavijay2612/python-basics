@@ -9,3 +9,7 @@ def subtraction(a,b):
 def division(a,b):
     division = a%b
     return(division)
+
+def multiplication(a,b):
+    multiplication = a * b
+    return(multiplication)

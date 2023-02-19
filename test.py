@@ -27,3 +27,7 @@ print(basic_mathematicops)
 import basic_mathematicops
 basic_mathematicops = basic_mathematicops.division(10 ,5)
 print(basic_mathematicops)
+
+import basic_mathematicops
+basic_mathematicops = basic_mathematicops.multiplication(10 ,5)
+print(basic_mathematicops)
