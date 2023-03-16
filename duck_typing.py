@@ -1,22 +1,32 @@
-class Parent:
-    def call():
-        print('Hello! I am your Father')
+class Duck:
+    def greet(self):
+        print('Hello! I am your Duck')
 
-class Child1:
-    def call():
-        print('Hello! I am your Elder son')
+#class Vijay:
+    #def greet(self):
+        #print('Hello! I am your Elder son')
 
 
-class Child2:
-    def call():
-        print('Hello! I am your Younger son')
+#class Vikas:
+    #def greet(self):
+        #print('Hello! I am your Younger son')
         
 
 class Raja:
-    def call(self,daddy):
-        daddy.call()
+    def greet(self,any_animal): #the parameter any_friend accepts any object. this is called as dynamic typing
+        any_animal.greet() # raja is not any_friend but he is calling call method of any_friend object
 
 raja = Raja()
-raja.call(Parent)
-raja.call(Child1)
-raja.call(Child2)
+duck = Duck()
+raja.greet(duck) # ducktyping
+
+any_animal = 3
+any_animal = "raja" #dynamic typing
+
+#raju = Raju()
+#vijay= Vijay()
+#vikas = Vikas()
+
+#duck.greet(raju)
+#duck.greet(vijay)
+#duck.greet(vikas)

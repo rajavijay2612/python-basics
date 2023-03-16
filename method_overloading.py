@@ -1,5 +1,5 @@
 class Person:
-    def Hello(self, name=None):
+    def hello(self, name=None):
         if name is not None:
             print('Hello ' + name)
         else:
@@ -7,6 +7,6 @@ class Person:
 # Create object
 person = Person()
 # Call the method hello
-person.Hello()
+person.hello()
 # Call the method with a parameter
-person.Hello('vijay')
+person.hello('vijay')

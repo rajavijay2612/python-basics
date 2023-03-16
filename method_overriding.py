@@ -1,15 +1,15 @@
 class Parent:
-    def call(self):
+    def greet(self):
         print('Hello! Iam the parent class')
 
 class Child(Parent):
-    def call(self):
-        print('Hello! Iam the child class')
+    #def greet(self):
+       # print('Hello! Iam the child class')
+    pass
 
 child = Child()
-child.call()
-child = Parent()
-child.call()
+child.greet()
+
 
     
 
